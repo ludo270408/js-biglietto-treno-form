@@ -1,3 +1,6 @@
+const button= document.getElementById('calc-price')
+
+
 button.addEventListener('click', function(){
     let name = document.getElementById('name').value;
     let km = document.getElementById('km').value;
